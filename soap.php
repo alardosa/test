@@ -1,6 +1,8 @@
+
+
 <?php
 
-        $soapClient = new SoapClient("demo.tag-acresta.com/nav/nav.xml");
+        $soapClienta = new SoapClient("demo.tag-acresta.com/nav/nav.xml");
    
         // Prepare SoapHeader parameters
         $sh_param = array(
