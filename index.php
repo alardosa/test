@@ -1,7 +1,5 @@
-
 <?php
-
-$soapURLa = "http://203.116.24.75:7047/DynamicsNAV70/WS/services" ;
+$soapURL = "http://203.116.24.75:7047/DynamicsNAV70/WS/services" ;
 $soapParameters = Array('login' => "cch\administrator", 'password' => "p@ssw0rd") ;
 $soapFunction = "someFunction" ;
 $soapFunctionParameters = Array('param1' => 42, 'param2' => "Search") ;
